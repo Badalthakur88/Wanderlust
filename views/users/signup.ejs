@@ -1,0 +1,44 @@
+<% layout("/layout/boilerplate") -%>
+
+<div class="row mt-2  justify-content-center">
+    <div class=" card p-4 col-12 col-md-6 col-lg-6">
+        <h2 class="signup-heading">SignUp on Wanderlust</h2>
+        <form method="post" action="/signup" class="needs-validation" novalidate>
+            <div class="mb-3">
+                <label for="signup" class="form-label">Username</label>
+                <input
+                    name="username"
+                    id="username"
+                    type="text"
+                    class="form-control"
+                    required
+                />
+                <div class="valid-feedback">
+                    Looks Good!
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                    name="email"
+                    id="email"
+                    type="email"
+                    class="form-control"
+                    required
+                />
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input
+                    name="password"
+                    id="password"
+                    type="password"
+                    class="form-control"
+                    required
+                />
+            </div>
+            <button class="btn btn-success">SignUp</button><br/>
+            <a href="/login">Have an account? Login Here </a>
+        </form>
+    </div>
+</div>
