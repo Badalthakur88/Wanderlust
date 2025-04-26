@@ -20,6 +20,11 @@ body{
 .nav-link{
     color:black !important;
 }
+.brand-name{
+    color: #fe424d;
+    font-size: 1.5rem;
+    font-family: cursive;
+}
 
 /* Footer */
 .f-info {
