@@ -11,23 +11,35 @@ body{
 /* Navbar */
 .navbar{
     height:5rem;
-    background-color: white;
+    /* background-color:#ffffff; */
+}
+.nav-clr{
+    background-color: #24346d;
 }
 .fa-compass{
-    color: #fe424d;
-    font-size: 2rem;
+    color: #ff0000;
+    font-size: 2.5rem;
 }
 .nav-link{
-    color:black !important;
+    color:white !important;
 }
 .brand-name{
-    color: #fe424d;
-    font-size: 1.5rem;
-    font-family: cursive;
+    color: #ff0000;
+    font-size: 1.8rem;
+    /* font-family: cursive; */
 }
 
 /* Footer */
-.f-info {
+/* <!-- Hover CSS --> */
+
+  .footer-hover:hover {
+    color: #ff0707 !important; /* Bootstrap warning yellow */
+    text-decoration: underline;
+  }
+  .f-info{
+    background-color: #24346d !important;
+  }
+/* .f-info {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,14 +57,14 @@ body{
 .f-info-socials i {
     font-size: 15px;
     margin: 0 5px; /* Adds spacing between icons */
-}
+*/
 
 /* index page */
 .listing-card{
     border: none !important;
 }
 .card-img-top{
-    border-radius: 1rem !important;
+    border-radius: 0.5rem !important;
     width: 100%;
     object-fit: cover !important;
 }

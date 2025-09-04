@@ -20,7 +20,7 @@ const User = require("./models/user.js");
 const {isLoggedIn} = require("./middleware.js");
 
 
-const port = 3000;
+const port = 8080;
 
 // const MONGO_URL = "mongodb://127.0.0.1:27017/wanderlust"
 const dbUrl = process.env.ATLASDB_URL;
